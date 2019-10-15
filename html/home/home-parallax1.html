@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>carsoutlet.ru</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="../../css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="../../css/mdb.min.css" rel="stylesheet">
+  <style>
+    html,
+    body,
+    header,
+    .jarallax {
+      height: 50%;
+      min-height: 90%;
+    }
+    @media (max-width: 450px) {
+      html,
+      body,
+      header,
+      .jarallax {
+        height: 700px;
+        min-height: 700px;
+      }
+    }
+    @media (min-width: 451px) and (max-width: 740px) {
+      html,
+      body,
+      header,
+      .jarallax {
+        height: 500px;
+        min-height: 500px;
+      }
+    }
+    @media (min-width: 800px) and (max-width: 850px) {
+      html,
+      body,
+      header,
+      .jarallax {
+        height: 550px;
+        min-height: 550px;
+      }
+    }
+    
+  </style>
+</head>
+
+
+
+
+
+
+
+
+<body>
+
+  <!-- Navigation & Intro -->
+  <header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar white">
+      <div class="container">
+        <a class="navbar-brand font-weight-bold title" href="../home/main.html">Carsoutlet</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="list-unstyled navbar-nav mr-auto">
+            <li class="nav-item ml-4">
+                <a class="nav-link title" href="../pricing/pricing.html" data-offset="90">Автомобили</a>
+            </li>
+            <li class="nav-item ml-4">
+                <a class="nav-link title" href="../pricing/pricing.html" data-offset="90">Правила</a>
+            </li>
+            <li class="nav-item ml-4">
+              <a class="nav-link title" href="../pricing/pricing.html" data-offset="90">О Компании</a>
+            </li>
+            <li class="nav-item dropdown ml-4">
+              <a class="nav-link dropdown-toggle title" id="navbarDropdownMenuLink2" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Backoffice</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="../pages/about.html">Автомобили</a>
+                <a class="dropdown-item" href="../pages/testimonials.html">Лоты</a>
+                <a class="dropdown-item" href="../pages/contact.html">Аукционы</a>
+                <a class="dropdown-item" href="../pages/register.html">Пользователи</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown ml-4">
+              <ul data-test="navbar-nav" class="list-unstyled navbar-nav ml-auto">
+                <li data-test="nav-item" class="nav-item">
+                  <a class="nav-link Ripple-parent" data-test="nav-link" href="https://test.ap-ru.com/profile/main">
+                    <i data-test="fa" class="fa fa-user-circle mr-2"></i>
+                    </i>Georgy Stazhkov<div data-test="waves" class="Ripple " style="top: 0px; left: 0px; width: 0px; height: 0px;"></div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Social Icon  -->
+
+    <!-- Intro Section -->
+    <div class="view jarallax" data-jarallax='{"speed": 0.2}'
+      style="background-image: url(https://mdbootstrap.com/img/Photos/Others/images/93.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; ">
+      <div class="mask rgba-black-light">
+        <div class="container h-100 d-flex justify-content-center align-items-center">
+          <div class="row pt-5 mt-3">
+            <div class="col-md-12">
+              <div class="text-center">
+                <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-3 wow fadeInDown"
+                  data-wow-delay="0.3s">
+                  <strong>Добро пожаловать на аукцион!</strong>
+                </h1>
+                <hr class="hr-light mt-4 wow fadeInDown" data-wow-delay="0.4s">
+                <a class="btn btn-outline-white wow fadeInDown"  data-wow-delay="0.4s">Регистрация</a>
+                <a class="btn btn-outline-white wow fadeInDown"  data-wow-delay="0.4s">Войти</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Intro -->
+
+    <!-- Filter -->
+      <div class="view " style="background-color: #f4f4fa">
+
+          <div class="flex-fill lots-filters">
+            <div class="card"><div class="card-body filters lighten-3">
+              <div data-test="row" class="row">
+                <div data-test="col" class="col-sm-12 col-md-6 col-xl-3 mb-1">
+                  <div class=" css-zcis1j-container">
+                    <div class=" css-yk16xz-control">
+                      <div class=" css-1hwfws3">
+                        <div class=" css-1wa3eu0-placeholder">Города</div>
+                        <div class="css-1g6gooi">
+                          <div class="" style="display: inline-block;"><input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-9-input" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;">
+                            <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; 
+                            font-size: 16px; font-family: Roboto, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class=" css-1wy0on6">
+                        <span class=" css-1okebmr-indicatorSeparator"></span>
+                        <div aria-hidden="true" class=" css-tlfecz-indicatorContainer">
+                          <svg height="20" width="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="css-19bqh2r">
+                            <path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-test="col" class="col-sm-12 col-md-6 col-xl-3 mb-1">
+                  <div class=" css-zcis1j-container">
+                    <div class=" css-yk16xz-control">
+                      <div class=" css-1hwfws3">
+                        <div class=" css-1wa3eu0-placeholder">Марки</div>
+                        <div class="css-1g6gooi"><div class="" style="display: inline-block;">
+                          <input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-10-input" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;">
+                          <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 16px; font-family: Roboto, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=" css-1wy0on6">
+                      <span class=" css-1okebmr-indicatorSeparator">
+                      </span><div aria-hidden="true" class=" css-tlfecz-indicatorContainer">
+                        <svg height="20" width="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="css-19bqh2r">
+                          <path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-test="col" class="col-sm-12 col-md-6 col-xl-3 mb-1">
+                <div class=" css-zcis1j-container"><div class=" css-yk16xz-control">
+                  <div class=" css-1hwfws3">
+                    <div class=" css-1wa3eu0-placeholder">Модели</div>
+                    <div class="css-1g6gooi">
+                      <div class="" style="display: inline-block;"><input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-11-input" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;">
+                        <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 16px; font-family: Roboto, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=" css-1wy0on6">
+                    <span class=" css-1okebmr-indicatorSeparator"></span>
+                    <div aria-hidden="true" class=" css-tlfecz-indicatorContainer">
+                      <svg height="20" width="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="css-19bqh2r">
+                        <path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-test="col" class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-between align-items-center">
+              <div data-popper="popper">
+                <i data-test="fa" class="fal fa-star fa-2x text-warning mr-4" style="cursor: pointer;"></i>
+              </div>
+              <a class="btn-primary btn my-0 btn-sm" href="https://test.ap-ru.com/lots?page=1">применить</a>
+            </div>
+          </div>
+        </div>
+        </div>
+          <div class="d-flex align-items-start py-3">
+            <span>Сотрировать по</span>
+              <a class="px-2" href="https://test.ap-ru.com/lots?order=end_at&amp;ordering_direction=desc&amp;page=1">дате окончания 
+                <i data-test="fa" class="fa fa-sort-amount-up"></i>
+              </a>
+              <a class="px-2" href="https://test.ap-ru.com/lots?order=start_at&amp;ordering_direction=asc&amp;page=1">дате начала </a>
+              <a class="px-2" href="https://test.ap-ru.com/lots?order=brand&amp;ordering_direction=asc&amp;page=1">бренду </a>
+              <a class="px-2" href="https://test.ap-ru.com/lots?order=km&amp;ordering_direction=asc&amp;page=1">пробегу </a>
+              <a class="px-2" href="https://test.ap-ru.com/lots?order=last_bid&amp;ordering_direction=asc&amp;page=1">цене </a>
+          </div>
+        </div>
+      </div>
+    </div>
+   <!-- Filter -->
+
+  <!-- Main content -->
+          <main>
+              <div data-test="container" class="container">
+                  <div data-test="row" class="row"><div data-test="col" class="col-sm-12"><div class="h1 text-center my-5">Актуальные лоты</div></div>
+                  <div data-test="col" class="col-sm-12 col-md-4 d-flex"><div data-test="card" class="card flex-fill mb-2"><a class="text-reset" href="https://test.ap-ru.com/lots/81">
+                    <div>
+                      <div class="indigo white-text chip m-0" style="position: absolute; top: 10px; right: 10px; opacity: 0.8;">
+                        <span>
+                      <span class="mr-1">Осталось</span>2 д</span>
+                    </div>
+                    <div style="height: 200px; width: 100%; background-image: url(&quot;https://e.ap-ru.com/system/picture/pictures/original/90469.JPG?1564584726&quot;); background-position: center center; background-size: cover;">
+                    </div>
+                    <div class="p-3"><h3>Opel Insignia</h3>
+                      <h6>2014 | Москва | 27&nbsp;609</h6>
+                      <h3>1&nbsp;000&nbsp;000</h3>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div data-test="col" class="col-sm-12 col-md-4 d-flex"><div data-test="card" class="card flex-fill mb-2"><a class="text-reset" href="https://test.ap-ru.com/lots/78">
+              <div>
+                <div class="indigo white-text chip m-0" style="position: absolute; top: 10px; right: 10px; opacity: 0.8;">
+                  <span>
+                    <span class="mr-1">Осталось</span>2 д</span>
+                  </div>
+                  <div style="height: 200px; width: 100%; background-image: url(&quot;https://e.ap-ru.com/system/picture/pictures/original/85377.JPG?1561563087&quot;); background-position: center center; background-size: cover;">
+                  </div>
+                  <div class="p-3">
+                    <h3>VW Passat</h3>
+                    <h6>2016 |  | 129&nbsp;865</h6>
+                    <h3>812&nbsp;008</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div data-test="col" class="col-sm-12 col-md-4 d-flex">
+            <div data-test="card" class="card flex-fill mb-2">
+              <a class="text-reset" href="https://test.ap-ru.com/lots/79">
+                <div>
+                <div class="indigo white-text chip m-0" style="position: absolute; top: 10px; right: 10px; opacity: 0.8;">
+                  <span>
+                    <span class="mr-1">Осталось</span>2 д</span>
+                  </div>
+                  <div style="height: 200px; width: 100%; background-image: url(&quot;https://e.ap-ru.com/system/picture/pictures/original/83968.JPG?1560760961&quot;); background-position: center center; background-size: cover;">
+                  </div>
+                  <div class="p-3"><h3>Skoda Fabia</h3><h6>2014 | Хабаровск | 73&nbsp;322</h6><h3>200&nbsp;000</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!-- Main content -->
+
+    <!-- Streak -->
+    <div class="streak streak-photo streak-md" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/92.jpg');">
+      <div class="flex-center view rgba-indigo-light">
+        <div class="container py-3">
+
+          <!-- Section: Features v.4 -->
+          <section class="wow fadeIn" data-wow-delay="0.2s">
+
+            <!-- Section heading -->
+            <h2 class="py-5 my-5 white-text font-weight-bold text-center wow fadeIn" data-wow-delay="0.2s">
+                Преимущества</h2>
+
+            <!-- Grid row -->
+            <div class="row mb-5">
+
+              <!-- Grid column -->
+              <div class="col-md-12 col-lg-6">
+
+                <!-- Grid row -->
+                <div class="row mb-5">
+                  <div class="col-2">
+                    <a type="button" class="btn-floating white btn-lg my-0">
+                      <i class="fas fa-user blue-text" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                  <div class="col-9 pl-5">
+                    <h4 class="font-weight-bold white-text">Один владелец</h4>
+                    <p class="white-text">Продажа авто от первого владельца.</p>
+                  </div>
+                </div>
+                <!-- Grid row -->
+
+                <!-- Grid row -->
+                <div class="row mb-5">
+                  <div class="col-2">
+                    <a type="button" class="btn-floating white btn-lg my-0">
+                      <i class="fas fa-level-up-alt blue-text" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                  <div class="col-9 pl-5">
+                    <h4 class="font-weight-bold white-text">Проверка автомобилей перед продажей</h4>
+                    <p class="white-text">лалалаллала.</p>
+                  </div>
+                </div>
+                <!-- Grid row -->
+
+                <!-- Grid row -->
+                <div class="row mb-5">
+                  <div class="col-2">
+                    <a type="button" class="btn-floating white btn-lg my-0">
+                      <i class="fas fa-phone blue-text" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                  <div class="col-9 pl-5">
+                    <h4 class="font-weight-bold white-text">Все по закону</h4>
+                    <p class="white-text">Договор и оплата согласно закону РФ.
+                    </p>
+                  </div>
+                </div>
+                <!-- Grid row -->
+
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-12 col-lg-6">
+
+                <!-- Grid row -->
+                <div class="row mb-5">
+                  <div class="col-2">
+                    <a type="button" class="btn-floating white btn-lg my-0">
+                      <i class="far fa-object-group blue-text" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                  <div class="col-9 pl-5">
+                    <h4 class="font-weight-bold white-text">Реальный пробег</h4>
+                    <p class="white-text">Мы указываем только настоящий пробег авто.
+                    </p>
+                  </div>
+                </div>
+                <!-- Grid row -->
+
+                <!-- Grid row -->
+                <div class="row mb-5">
+                  <div class="col-2">
+                    <a type="button" class="btn-floating white btn-lg my-0">
+                      <i class="fas fa-rocket blue-text" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                  <div class="col-9 pl-5">
+                    <h4 class="font-weight-bold white-text">Обслуживание у оффициальных дилеров</h4>
+                    <p class="white-text">У всех машин имеется полная история ТО.
+                    </p>
+                  </div>
+                </div>
+                <!-- Grid row -->
+
+                <!-- Grid row -->
+                <div class="row mb-5">
+                  <div class="col-2">
+                    <a type="button" class="btn-floating white btn-lg my-0">
+                      <i class="fas fa-cloud-upload-alt blue-text" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                  <div class="col-9 pl-5">
+                    <h4 class="font-weight-bold white-text">Возврат НДС</h4>
+                    <p class="white-text">лалалала.
+                    </p>
+                  </div>
+                </div>
+                <!-- Grid row -->
+
+              </div>
+              <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+          </section>
+          <!-- Section: Features v.4 -->
+        </div>
+      </div>
+    </div>
+    <!-- Streak -->
+
+    <!-- Second container -->
+    <div class="container-fluid" style="background-color: #f4f4fa">
+      <div class="container py-4">
+
+        <!-- Section: Services -->
+        <section class="my-3 pb-3">
+
+          <!-- Section heading -->
+          <h3 class="text-center title my-5 pt-4 pb-5 dark-grey-text font-weight-bold wow fadeIn" data-wow-delay="0.2s">
+            <strong>Легко начать</strong>
+          </h3>
+
+          <!-- First row -->
+          <div class="row wow fadeIn" data-wow-delay="0.4s">
+
+            <!-- First column -->
+            <div class="col-md-4 mb-5 text-center">
+
+              <!-- Panel -->
+              <div class="card card-body text-left white hoverable">
+                <p class="title font-weight-bold dark-grey-text text-uppercase spacing mt-4 mx-4">
+                  <i class="fas fa-square orange-text mr-2" aria-hidden="true"></i>
+                  <strong>1. Зарегистрируйся</strong>
+                </p>
+                <p class="grey-text font-small mx-4">Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                  nesciunt sapiente earu
+                  proident.
+                </p>
+              </div>
+              <!-- Panel -->
+
+            </div>
+            <!-- First column -->
+
+            <!-- Second column -->
+            <div class="col-md-4 mb-5 text-center">
+
+              <!-- Panel -->
+              <div class="card card-body text-left white hoverable">
+                <p class="title font-weight-bold dark-grey-text text-uppercase spacing mt-4 mx-4">
+                  <i class="fas fa-square orange-text mr-2" aria-hidden="true"></i>
+                  <strong>2. Выбери</strong>
+                </p>
+                <p class="grey-text font-small mx-4">Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                  nesciunt sapiente earu
+                  proident.
+                </p>
+              </div>
+              <!-- Panel -->
+
+            </div>
+            <!-- Second column -->
+
+            <!-- Third column -->
+            <div class="col-md-4 mb-5 text-center">
+
+              <!-- Panel -->
+              <div class="card card-body text-left white hoverable">
+                <p class="title font-weight-bold dark-grey-text text-uppercase spacing mt-4 mx-4">
+                  <i class="fas fa-square orange-text mr-2" aria-hidden="true"></i>
+                  <strong>3. Сделай ставку</strong>
+                </p>
+                <p class="grey-text font-small mx-4">Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                  nesciunt sapiente earu
+                  proident.
+                </p>
+              </div>
+              <!-- Panel -->
+
+            </div>
+            <!-- Third column -->
+
+          </div>
+          <!-- First row -->
+
+        </section>
+        <!-- Section: Services -->
+
+      </div>
+    </div>
+
+    <!-- Streak -->
+    <div class="streak streak-photo streak-md" style="background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg');">
+      <div class="mask rgba-black-strong flex-center">
+        <div class="text-center text-white wow fadeIn" data-wow-delay="0.4s">
+          <h2 class="font-weight-bold mb-3 pt-4 mt-4">Дата начала нового аукциона!</h2>
+          <p class="font-weight-bold grey-text">Friday 17/10/2018, 8:00 am</p>
+
+          <!--Grid row-->
+          <div class="row mt-5 mb-5">
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-4">
+              <hr class="white mx-5">
+              <h1 class="display-4 font-weight-bold white-text">
+                <strong>20</strong>
+              </h1>
+              <hr class="white mx-5">
+              <p class="font-weight-bold spacing">DAYS</p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-4">
+              <h1 class="display-4 font-weight-bold white-text rgba-white-light mx-4 py-3 mt-3">
+                <strong>12</strong>
+              </h1>
+              <p class="font-weight-bold spacing pt-3">HOURS</p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-4">
+              <hr class="white mx-5">
+              <h1 class="display-4 font-weight-bold white-text">
+                <strong>35</strong>
+              </h1>
+              <hr class="white mx-5">
+              <p class="font-weight-bold spacing">MINS</p>
+            </div>
+            <!--Grid column-->
+
+          </div>
+          <!--Grid row-->
+        </div>
+      </div>
+    </div>
+    <!-- Streak -->
+
+
+
+    <!-- Streak -->
+    <div class="streak streak-photo streak-md" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/architecture.jpg');">
+      <div class="flex-center mask rgba-gradient">
+        <div class="container my-5">
+
+          <!-- Section heading -->
+          <h3 class="text-center pb-3 white-text font-weight-bold wow fadeIn" data-wow-delay="0.2s">
+            <strong>Мобильное приложение AP-Driver</strong>
+          </h3>
+          <h6 class="text-center white-text pb-4 font-weight-bold wow fadeIn" data-wow-delay="0.2s">
+          </h6>
+          <!-- First row -->
+          <div class="row flex-center">
+
+            <a class="btn btn-white btn-rounded btn-lg orange-text font-weight-bold ml-0 wow fadeIn"
+              data-wow-delay="0.2s">
+              <i class="fab fa-android pr-2" aria-hidden="true"></i> Play store</a>
+            <a class="btn btn-white btn-rounded btn-lg orange-text font-weight-bold wow fadeIn" data-wow-delay="0.2s">
+              <i class="fab fa-apple pr-2" aria-hidden="true"></i> App store</a>
+          </div>
+          <!-- First row -->
+
+        </div>
+      </div>
+    </div>
+    <!-- Streak -->
+  </main>
+  <!-- Main content -->
+
+  <div class="container">
+
+        <!-- Section: Features v.4 -->
+        <section id="features" class="text-center my-5">
+
+            <!-- Section heading -->
+            <!---
+            <h2 class="title font-weight-bold my-5 wow fadeIn" data-wow-delay="0.2s">
+              <strong>Покупать транспортные средства на аукционе легко</strong>
+            </h2>
+    
+            <!-- Section description -->
+            <!--
+            <p class="grey-text w-responsive mx-auto mb-5 wow fadeIn" data-wow-delay="0.2s"></p>
+    
+            <!-- Grid row -->
+                        <!--
+            <div class="row wow fadeIn" data-wow-delay="0.2s">
+    
+                <div class="row mt-5 pt-4features wow fadeIn" data-wow-delay="0.2s">
+        
+                    <div class="col-md-6 col-lg-3 text-center">
+                      <div class="icon-area">
+                        <div class="circle-icon">
+                          <i class="fas fa-cogs blue-text"></i>
+                        </div>
+                        <br>
+                        <h5 class="dark-grey-text font-weight-bold mt-2">Зарегистрируйся</h5>
+                        <div class="mt-1">
+                          <p class="mx-3 grey-text"></p>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-md-6 col-lg-3 text-center">
+                      <div class="icon-area">
+                        <div class="circle-icon">
+                          <i class="fas fa-book blue-text"></i>
+                        </div>
+                        <br>
+                        <h5 class="dark-grey-text font-weight-bold mt-2">Выбери</h5>
+                        <div class="mt-1">
+                          <p class="mx-3 grey-text"></p>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-md-6 col-lg-3 text-center mb-4">
+                      <div class="icon-area">
+                        <div class="circle-icon">
+                          <i class="fas fa-users blue-text"></i>
+                        </div>
+                        <br>
+                        <h5 class="dark-grey-text font-weight-bold mt-2">Сделай ставки</h5>
+                        <div class="mt-1">
+                          <p class="mx-3 grey-text"></p>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-md-6 col-lg-3 text-center mb-4">
+                      <div class="icon-area">
+                        <div class="circle-icon">
+                          <i class="fas fa-laptop blue-text"></i>
+                        </div>
+                        <br>
+                        <h5 class="dark-grey-text font-weight-bold mt-2">Выйграй</h5>
+                        <div class="mt-1">
+                          <p class="mx-3 grey-text">Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem
+                            ipsum dolor
+                            sit amet, consectetur adipisicing.</p>
+                        </div>
+                      </div>
+                    </div>
+        
+                  </div>
+    
+            </div>
+            <!-- Grid row -->
+                <!--
+          </section>
+          <!-- Section: Features v.4 -->
+          
+</div>
+
+  <!-- Footer -->
+  <footer class="page-footer text-center text-md-left unique-color-dark pt-0">
+      <div data-test="container" class="container-fluid text-center py-4">
+            ООО Авто Партнерс Россия, 115184, Москва, Олимпийский Проспект, 14, тел.: +7(495)785-0983, email: info@ap-ru.com
+      </div>
+          <div class="footer-copyright text-center py-3">
+            <div data-test="container" class="container-fluid">© 2019 Copyright: 
+            <a href="https://www.ap-ru.com/" target="_blank" rel="noopener noreferrer"> Auto Partners </a>
+          </div>
+        </div>
+  <!-- Footer -->
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="../../js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="../../js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="../../js/mdb.min.js"></script>
+  <script>
+    // Animation init
+    new WOW().init();
+
+    // Material Select Initialization
+    $(document).ready(function () {
+      $('.mdb-select').material_select();
+    });
+  </script>
+
+</body>
+
+</html>
