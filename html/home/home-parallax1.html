@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -47,17 +46,9 @@
         min-height: 550px;
       }
     }
-    
+
   </style>
 </head>
-
-
-
-
-
-
-
-
 <body>
 
   <!-- Navigation & Intro -->
@@ -66,7 +57,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar white">
       <div class="container">
-        <a class="navbar-brand font-weight-bold title" href="../home/main.html">Carsoutlet</a>
+        <a class="navbar-brand font-weight-bold title" href="home-parallax1.html">Carsoutlet</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
           aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -80,7 +71,7 @@
                 <a class="nav-link title" href="../pricing/pricing.html" data-offset="90">Правила</a>
             </li>
             <li class="nav-item ml-4">
-              <a class="nav-link title" href="../pricing/pricing.html" data-offset="90">О Компании</a>
+              <a class="nav-link title" href="about_us.html" data-offset="90">О Компании</a>
             </li>
             <li class="nav-item dropdown ml-4">
               <a class="nav-link dropdown-toggle title" id="navbarDropdownMenuLink2" data-toggle="dropdown"
@@ -120,9 +111,19 @@
                   data-wow-delay="0.3s">
                   <strong>Добро пожаловать на аукцион!</strong>
                 </h1>
-                <hr class="hr-light mt-4 wow fadeInDown" data-wow-delay="0.4s">
-                <a class="btn btn-outline-white wow fadeInDown"  data-wow-delay="0.4s">Регистрация</a>
-                <a class="btn btn-outline-white wow fadeInDown"  data-wow-delay="0.4s">Войти</a>
+                    <hr class="hr-light mt-4 wow fadeInDown" data-wow-delay="0.4s">
+                <div class="row justify-content-center">
+                  <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div style="">
+                      <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s" style="width: 100%;">Регистрация</a>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div style="">
+                      <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s" style="width: 100%;">Войти</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -133,9 +134,9 @@
 
     <!-- Filter -->
       <div class="view " style="background-color: #f4f4fa">
-
-          <div class="flex-fill lots-filters">
-            <div class="card"><div class="card-body filters lighten-3">
+        <div class="flex-fill lots-filters">
+          <div class="card">
+            <div class="card-body filters lighten-3">
               <div data-test="row" class="row">
                 <div data-test="col" class="col-sm-12 col-md-6 col-xl-3 mb-1">
                   <div class=" css-zcis1j-container">
@@ -144,7 +145,7 @@
                         <div class=" css-1wa3eu0-placeholder">Города</div>
                         <div class="css-1g6gooi">
                           <div class="" style="display: inline-block;"><input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-9-input" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;">
-                            <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; 
+                            <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre;
                             font-size: 16px; font-family: Roboto, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;">
                             </div>
                           </div>
@@ -207,17 +208,14 @@
               </div>
             </div>
             <div data-test="col" class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-between align-items-center">
-              <div data-popper="popper">
-                <i data-test="fa" class="fal fa-star fa-2x text-warning mr-4" style="cursor: pointer;"></i>
-              </div>
               <a class="btn-primary btn my-0 btn-sm" href="https://test.ap-ru.com/lots?page=1">применить</a>
             </div>
+              </div>
+            </div>
           </div>
-        </div>
-        </div>
           <div class="d-flex align-items-start py-3">
             <span>Сотрировать по</span>
-              <a class="px-2" href="https://test.ap-ru.com/lots?order=end_at&amp;ordering_direction=desc&amp;page=1">дате окончания 
+              <a class="px-2" href="https://test.ap-ru.com/lots?order=end_at&amp;ordering_direction=desc&amp;page=1">дате окончания
                 <i data-test="fa" class="fa fa-sort-amount-up"></i>
               </a>
               <a class="px-2" href="https://test.ap-ru.com/lots?order=start_at&amp;ordering_direction=asc&amp;page=1">дате начала </a>
@@ -227,7 +225,7 @@
           </div>
         </div>
       </div>
-    </div>
+   
    <!-- Filter -->
 
   <!-- Main content -->
@@ -237,9 +235,9 @@
                   <div data-test="col" class="col-sm-12 col-md-4 d-flex"><div data-test="card" class="card flex-fill mb-2"><a class="text-reset" href="https://test.ap-ru.com/lots/81">
                     <div>
                       <div class="indigo white-text chip m-0" style="position: absolute; top: 10px; right: 10px; opacity: 0.8;">
-                        <span>
+                      <span>
                       <span class="mr-1">Осталось</span>2 д</span>
-                    </div>
+                      </div>
                     <div style="height: 200px; width: 100%; background-image: url(&quot;https://e.ap-ru.com/system/picture/pictures/original/90469.JPG?1564584726&quot;); background-position: center center; background-size: cover;">
                     </div>
                     <div class="p-3"><h3>Opel Insignia</h3>
@@ -442,7 +440,6 @@
                 </p>
               </div>
               <!-- Panel -->
-
             </div>
             <!-- First column -->
 
@@ -461,7 +458,6 @@
                 </p>
               </div>
               <!-- Panel -->
-
             </div>
             <!-- Second column -->
 
@@ -480,16 +476,12 @@
                 </p>
               </div>
               <!-- Panel -->
-
             </div>
             <!-- Third column -->
-
           </div>
           <!-- First row -->
-
         </section>
         <!-- Section: Services -->
-
       </div>
     </div>
 
@@ -506,9 +498,9 @@
             <!--Grid column-->
             <div class="col-lg-4 col-md-4">
               <hr class="white mx-5">
-              <h1 class="display-4 font-weight-bold white-text">
-                <strong>20</strong>
-              </h1>
+                <h1 class="display-4 font-weight-bold white-text">
+                  <strong>20</strong>
+                </h1>
               <hr class="white mx-5">
               <p class="font-weight-bold spacing">DAYS</p>
             </div>
@@ -519,7 +511,7 @@
               <h1 class="display-4 font-weight-bold white-text rgba-white-light mx-4 py-3 mt-3">
                 <strong>12</strong>
               </h1>
-              <p class="font-weight-bold spacing pt-3">HOURS</p>
+                <p class="font-weight-bold spacing pt-3">HOURS</p>
             </div>
             <!--Grid column-->
 
@@ -541,132 +533,21 @@
     </div>
     <!-- Streak -->
 
-
-
-    <!-- Streak -->
-    <div class="streak streak-photo streak-md" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/architecture.jpg');">
-      <div class="flex-center mask rgba-gradient">
-        <div class="container my-5">
-
-          <!-- Section heading -->
-          <h3 class="text-center pb-3 white-text font-weight-bold wow fadeIn" data-wow-delay="0.2s">
-            <strong>Мобильное приложение AP-Driver</strong>
-          </h3>
-          <h6 class="text-center white-text pb-4 font-weight-bold wow fadeIn" data-wow-delay="0.2s">
-          </h6>
-          <!-- First row -->
-          <div class="row flex-center">
-
-            <a class="btn btn-white btn-rounded btn-lg orange-text font-weight-bold ml-0 wow fadeIn"
-              data-wow-delay="0.2s">
-              <i class="fab fa-android pr-2" aria-hidden="true"></i> Play store</a>
-            <a class="btn btn-white btn-rounded btn-lg orange-text font-weight-bold wow fadeIn" data-wow-delay="0.2s">
-              <i class="fab fa-apple pr-2" aria-hidden="true"></i> App store</a>
-          </div>
-          <!-- First row -->
-
-        </div>
-      </div>
-    </div>
-    <!-- Streak -->
   </main>
   <!-- Main content -->
 
-  <div class="container">
-
-        <!-- Section: Features v.4 -->
-        <section id="features" class="text-center my-5">
-
-            <!-- Section heading -->
-            <!---
-            <h2 class="title font-weight-bold my-5 wow fadeIn" data-wow-delay="0.2s">
-              <strong>Покупать транспортные средства на аукционе легко</strong>
-            </h2>
-    
-            <!-- Section description -->
-            <!--
-            <p class="grey-text w-responsive mx-auto mb-5 wow fadeIn" data-wow-delay="0.2s"></p>
-    
-            <!-- Grid row -->
-                        <!--
-            <div class="row wow fadeIn" data-wow-delay="0.2s">
-    
-                <div class="row mt-5 pt-4features wow fadeIn" data-wow-delay="0.2s">
-        
-                    <div class="col-md-6 col-lg-3 text-center">
-                      <div class="icon-area">
-                        <div class="circle-icon">
-                          <i class="fas fa-cogs blue-text"></i>
-                        </div>
-                        <br>
-                        <h5 class="dark-grey-text font-weight-bold mt-2">Зарегистрируйся</h5>
-                        <div class="mt-1">
-                          <p class="mx-3 grey-text"></p>
-                        </div>
-                      </div>
-                    </div>
-        
-                    <div class="col-md-6 col-lg-3 text-center">
-                      <div class="icon-area">
-                        <div class="circle-icon">
-                          <i class="fas fa-book blue-text"></i>
-                        </div>
-                        <br>
-                        <h5 class="dark-grey-text font-weight-bold mt-2">Выбери</h5>
-                        <div class="mt-1">
-                          <p class="mx-3 grey-text"></p>
-                        </div>
-                      </div>
-                    </div>
-        
-                    <div class="col-md-6 col-lg-3 text-center mb-4">
-                      <div class="icon-area">
-                        <div class="circle-icon">
-                          <i class="fas fa-users blue-text"></i>
-                        </div>
-                        <br>
-                        <h5 class="dark-grey-text font-weight-bold mt-2">Сделай ставки</h5>
-                        <div class="mt-1">
-                          <p class="mx-3 grey-text"></p>
-                        </div>
-                      </div>
-                    </div>
-        
-                    <div class="col-md-6 col-lg-3 text-center mb-4">
-                      <div class="icon-area">
-                        <div class="circle-icon">
-                          <i class="fas fa-laptop blue-text"></i>
-                        </div>
-                        <br>
-                        <h5 class="dark-grey-text font-weight-bold mt-2">Выйграй</h5>
-                        <div class="mt-1">
-                          <p class="mx-3 grey-text">Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem
-                            ipsum dolor
-                            sit amet, consectetur adipisicing.</p>
-                        </div>
-                      </div>
-                    </div>
-        
-                  </div>
-    
-            </div>
-            <!-- Grid row -->
-                <!--
-          </section>
-          <!-- Section: Features v.4 -->
-          
-</div>
 
   <!-- Footer -->
   <footer class="page-footer text-center text-md-left unique-color-dark pt-0">
-      <div data-test="container" class="container-fluid text-center py-4">
-            ООО Авто Партнерс Россия, 115184, Москва, Олимпийский Проспект, 14, тел.: +7(495)785-0983, email: info@ap-ru.com
-      </div>
-          <div class="footer-copyright text-center py-3">
-            <div data-test="container" class="container-fluid">© 2019 Copyright: 
-            <a href="https://www.ap-ru.com/" target="_blank" rel="noopener noreferrer"> Auto Partners </a>
-          </div>
+    <div data-test="container" class="container-fluid text-center py-4">
+          ООО Авто Партнерс Россия, 115184, Москва, Олимпийский Проспект, 14, тел.: +7(495)785-0983, email: info@ap-ru.com
+    </div>
+      <div class="footer-copyright text-center py-3">
+        <div data-test="container" class="container-fluid">© 2019 Copyright:
+          <a href="https://www.ap-ru.com/" target="_blank" rel="noopener noreferrer"> Auto Partners </a>
         </div>
+      </div>
+  </footer>
   <!-- Footer -->
 
   <!-- JQuery -->
@@ -690,3 +571,4 @@
 </body>
 
 </html>
+
